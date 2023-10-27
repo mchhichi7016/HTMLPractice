@@ -1,0 +1,36 @@
+header{
+    background-color: aquamarine;
+    padding: 20px 0;
+}
+
+ul{
+    /*消除*/
+    list-style: none;
+    /*横*/
+    display: flex;
+    /*缝间*/
+    gap: 0 40px;
+    /*中央*/
+    justify-content: end;
+
+}
+
+.last{
+    margin-right: 30px;
+}
+
+.blog-contens{
+    display: flex;
+    width: 90%;
+    gap: 0 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.blog{
+    width: 30%;
+}
+
+img{
+    width: 100%
+}

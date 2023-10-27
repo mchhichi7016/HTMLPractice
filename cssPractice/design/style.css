@@ -1,0 +1,16 @@
+/*背景色*/
+.header-contents{
+    background-color: #FAFAD2;
+    /*幅*/
+    width: 700px;
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    /*大*/
+    font-size: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: red;
+    width: 80%;
+}

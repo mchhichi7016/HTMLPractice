@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#a{
+    /*平铺*/
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#b{
+    /*覆盖*/
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#c{
+    /*缩放+覆盖*/
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 50px;
+}
