@@ -1,0 +1,60 @@
+header{
+    background-color: pink;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    /*缝间*/
+    gap: 20 20px;
+    /*中央*/
+    font-style: normal;
+    font-weight: bold;
+    /*边框*/
+    padding: 10px 0;
+    }
+
+li:hover {
+    color: red;
+    }
+
+ul{
+    /*消除*/
+    list-style: none;
+    /*横*/
+    display: flex;
+    /*缝隙*/
+    gap: 0 20px;
+    /*中央*/
+    justify-content: center;
+    /*文字大熊*/
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+.last{
+    margin-right: 30px;
+}
+
+.blog-contens{
+    display: flex;
+    width: 90%;
+    gap: 0 20px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.blog{
+    width: 30%;
+}
+
+img{
+    width: 100%
+}
+
+.last-text{
+    font-size: x-small;
+    font-style: 100px;
+    font-weight:bolder;
+}
