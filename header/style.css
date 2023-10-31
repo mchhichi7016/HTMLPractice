@@ -1,0 +1,38 @@
+body{
+    padding-top: 90%;
+}
+
+header{
+    display: flex;
+    background-color: rgb(214, 250, 238);
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 20px 0;
+    /*windowを基準に固定*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 0 30px;
+}
+
+ul li{
+    /*リストの を削除*/
+    list-style: none;
+}
+
+h4{
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 1200px;
+}
