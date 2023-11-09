@@ -5,25 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="Loginstyle.css">
 </head>
 
 <body>
+    <h1 class="loginH1">ログイン</h1>
 
     <div class="login">
-
-        <h1>Login</h1>
-
+        
         <div>
             <form action="/login" method="post">
-                <label for="username">ユーザー名:</label>
-
-                <div><input type="text" id="username" name="username" required placeholder="ユーザー名を入力してください"></div>
-                <div><label for="password">パスワード:</label></div>
-                <div><input type="password" id="password" name="password" required placeholder="パスワードを入力してください"></div>
-                <div><input type="submit" value="登録"></div>
+                <div><label for="username">メールアドレス</label><input type="text" id="username" name="username" required></div>
+                <div><label for="password">パスワード</label><input type="password" id="password" name="password" required></div>
+                <div class="button1"><input type="button" value="ログイン"></div>
+                <div><h6><a href="">パスワードを忘れた方はこちら</a></h6></div>
             </form>
         </div>
+    </div>
+
+    <div>
+        <div class="button2"><p>新規登録はこちら</p></div>
+    </div>
+
+    <div>
+        <h6 class="cH6">Copyright &copy;Acronym All rights reserved.</h6>
     </div>
 
    
